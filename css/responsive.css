@@ -8,7 +8,7 @@
     .banner-container {
         flex-direction: column-reverse;
         margin-top: 20px;
-        gap:0px;
+        gap: 0px;
 
     }
 
@@ -19,13 +19,12 @@
         /* border: 1px solid blue; */
         /* text-align: center; */
         background-blend-mode: overlay;
-        /* padding-left: 50px; */
     }
 
 
     .banner-content .banner-title1 {
         font-size: 1.5rem;
-        padding: 35px 0px 5px 70px;
+        padding: 35px 0px 5px 60px;
     }
 
     .banner-content .banner-title2 {
@@ -36,7 +35,7 @@
 
     .banner-icons {
         /* border: 1px solid pink; */
-        width: 100%;
+        width: 70%;
         margin: 0px;
         padding: 0px 0px 5px 60px;
         /* text-align: center; */
@@ -54,33 +53,68 @@
         font-size: 0.7rem;
         text-align: center;
     }
+
     .banner-btn {
         gap: 15px;
         padding: 5px 0px 5px 60px;
     }
-    
+
     .primary-btn {
         padding: 8px 17px;
         border-radius: 48px;
         margin-right: 0px;
         font-size: 0.8rem;
     }
-    
+
     .btn-2 {
         padding: 8px 17px;
         border-radius: 48px;
         font-size: 0.8rem;
     }
+
     .banner-images {
         width: 100%;
         /* border: 2px solid red; */
         background-blend-mode: overlay;
         background-position-x: center;
-    
+
     }
-    
+
     .banner-images img {
         width: 100%;
     }
-    
+
+    /* cart section */
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .primary-desc {
+        font-size: 0.8rem;
+    }
+
+    .primary-title {
+        font-size: 1.7rem;
+
+    }
+
+    .grid-container {
+        /* margin: 10px; */
+        /* border: 2px solid red; */
+        margin: 40px 25px;
+        gap: 20px;
+    }
+
+    .single-grid {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .grid-container .cart-desc {
+        font-size: 0.7rem;
+
+    }
+
+
+
 }
