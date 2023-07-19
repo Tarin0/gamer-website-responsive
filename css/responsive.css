@@ -16,8 +16,6 @@
         width: 100%;
         height: 300px;
         padding: 0px;
-        /* border: 1px solid blue; */
-        /* text-align: center; */
         background-blend-mode: overlay;
     }
 
@@ -30,23 +28,18 @@
     .banner-content .banner-title2 {
         font-size: 2rem;
         font-weight: 800;
-        /* border: 1px solid blue; */
     }
 
     .banner-icons {
-        /* border: 1px solid pink; */
         width: 70%;
         margin: 0px;
         padding: 0px 0px 5px 60px;
-        /* text-align: center; */
     }
 
     .banner-icon-desc {
         max-height: 15px;
         gap: 0.5rem;
         padding: 5px;
-        /* margin-left: 120px; */
-        /* border: 1px solid pink; */
     }
 
     .banner-icon-desc p {
@@ -74,7 +67,6 @@
 
     .banner-images {
         width: 100%;
-        /* border: 2px solid red; */
         background-blend-mode: overlay;
         background-position-x: center;
 
@@ -83,8 +75,6 @@
     .banner-images img {
         width: 100%;
     }
-
-    /* cart section */
     .grid-container {
         grid-template-columns: 1fr;
     }
@@ -99,101 +89,92 @@
     }
 
     .grid-container {
-        /* margin: 10px; */
-        /* border: 2px solid red; */
         margin: 40px 25px;
         gap: 20px;
     }
 
     .single-grid {
         width: 100%;
-        /* border: 2px solid red; */
     }
 
     .grid-container .cart-desc {
         font-size: 0.7rem;
 
     }
-    /* play section */
-    .play-container{
-     flex-direction: column;
-    /* border: 2px solid blueviolet; */
 
+    /* play section */
+
+    .play-container {
+        flex-direction: column;
     }
-    .play-title{
+
+    .play-title {
         width: 100%;
-        /* border: 2px solid blueviolet; */
         text-align: center;
-        height:auto;
         padding-right: 0px;
         padding-left: 0px;
-    
     }
-    .play-img-container{
-        width: 100%;
-        /* border: 2px solid red; */
-    
+
+    .play-primary-desc {
+        font-size: 0.5rem;
+        margin: 0;
     }
-    
-    .play-title .primary-title {
-        /* border: 2px solid red; */
-        /* display: block; */
+
+    .play-primary-title {
+        font-size: 1.7rem;
         margin: 0;
         padding-top: 0px;
         padding-bottom: 10px;
+        font-size: 1.2rem;
     }
-    .play-title .primary-desc {
-        /* border: 2px solid red; */
-        margin: 0;
-    }
-    .play-img-container{
+
+    .play-img-container {
         width: 100%;
-        /* border: 2px solid red; */
+        object-fit: cover;
     }
-    .play-img-container .img1{
-        margin-left:100px;
-    }
-    .play-img-container .img1 img{
+
+    .img-main {
         width: 60%;
-        /* border: 2px solid blue; */
+        margin-left: 120px;
+    }
 
+    .overlay img {
+        width: 100px;
     }
-    .play-img-container .img2 img{
-        width: 40%;
-        /* border: 2px solid blue; */
 
+    .overlay {
+        left: 100px;
+        bottom: -30px;
     }
-    .img2{
-        bottom:-20px;
-        left:30px;
-    }
-    
+
     /* icon styles */
-    .icon-container{
-        width:380px;
+
+    .icon-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap:10px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
     }
+
     .icon-logo-container {
         border-radius: 30px;
         padding: 0px 5px;
-       
+
     }
-    
+
     .icon-logo-container img {
         width: 20px;
         height: 20px;
         margin-right: 5px;
-    
+
     }
-    
+
     .icon-logo-container p {
         font-size: 0.6rem;
         font-weight: 600;
 
     }
-    
+
     .icon-container {
         gap: 5px;
         margin-top: 100px;
@@ -202,37 +183,29 @@
     }
 
     /* footer styles */
-    .footer-container {
-        width: 380px;
-    }
 
-    
     .footer-list ul {
         padding-top: 10px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap:10px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
-    
+
     .footer-list li {
         font-size: 1rem;
     }
-    
+
     .footer-icons {
-        /* grid-template-columns:1fr; */
-        gap:20px;     
+        gap: 20px;
     }
-    
+
     .fa-brands {
         font-size: 30px;
     }
-    
     .footer-contact ul {
         padding-top: 10px;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap:5px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
     }
-    
-
 }

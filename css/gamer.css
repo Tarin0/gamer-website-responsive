@@ -252,22 +252,32 @@ body {
 
 }
 
-.play-title .primary-title {
+.play-primary-desc {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+
+.play-primary-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
     display: block;
     margin: 0;
     padding-top: 200px;
     padding-bottom: 10px;
 }
 
-.play-title .primary-desc {
-    margin: 0;
+.play-shaded-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.play-images {
-    position: relative;
-}
-
-.img2 {
+.overlay {
     position: absolute;
     bottom: -80px;
     left: -150px;
