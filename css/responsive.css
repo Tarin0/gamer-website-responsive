@@ -114,7 +114,125 @@
         font-size: 0.7rem;
 
     }
+    /* play section */
+    .play-container{
+     flex-direction: column;
+    /* border: 2px solid blueviolet; */
 
+    }
+    .play-title{
+        width: 100%;
+        /* border: 2px solid blueviolet; */
+        text-align: center;
+        height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
+    
+    }
+    .play-img-container{
+        width: 100%;
+        /* border: 2px solid red; */
+    
+    }
+    
+    .play-title .primary-title {
+        /* border: 2px solid red; */
+        /* display: block; */
+        margin: 0;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .play-title .primary-desc {
+        /* border: 2px solid red; */
+        margin: 0;
+    }
+    .play-img-container{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .play-img-container .img1{
+        margin-left:100px;
+    }
+    .play-img-container .img1 img{
+        width: 60%;
+        /* border: 2px solid blue; */
 
+    }
+    .play-img-container .img2 img{
+        width: 40%;
+        /* border: 2px solid blue; */
+
+    }
+    .img2{
+        bottom:-20px;
+        left:30px;
+    }
+    
+    /* icon styles */
+    .icon-container{
+        width:380px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    .icon-logo-container {
+        border-radius: 30px;
+        padding: 0px 5px;
+       
+    }
+    
+    .icon-logo-container img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    
+    }
+    
+    .icon-logo-container p {
+        font-size: 0.6rem;
+        font-weight: 600;
+
+    }
+    
+    .icon-container {
+        gap: 5px;
+        margin-top: 100px;
+        padding: 20px 0px;
+
+    }
+
+    /* footer styles */
+    .footer-container {
+        width: 380px;
+    }
+
+    
+    .footer-list ul {
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    
+    .footer-list li {
+        font-size: 1rem;
+    }
+    
+    .footer-icons {
+        /* grid-template-columns:1fr; */
+        gap:20px;     
+    }
+    
+    .fa-brands {
+        font-size: 30px;
+    }
+    
+    .footer-contact ul {
+        padding-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:5px;
+    }
+    
 
 }
