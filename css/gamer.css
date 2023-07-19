@@ -92,7 +92,8 @@ body {
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    margin-bottom: 0px;
 }
 
 .banner-content .banner-title2 {
@@ -102,9 +103,20 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 70px;
     font-weight: 800;
-    /* border: 1px solid red; */
+    border: 1px solid blue;
 }
 
+.banner-icons{
+    border: 1px solid pink;
+    width: 50%;
+    margin: 10px 250px;
+}
+.banner-icon-desc{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 .banner-images {
     width: 50%;
 
